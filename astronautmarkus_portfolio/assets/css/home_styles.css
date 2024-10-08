@@ -1,0 +1,64 @@
+#intro-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+#profile-image {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#profile-image:hover {
+    transform: scale(1.05);
+}
+
+#abbybot-image {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#abbybot-image:hover {
+    transform: scale(1.05);
+}
+
+
+.button.is-purple {
+    background-color: #6a0dad;
+    color: #ffffff;
+    border: none;
+}
+
+
+.button.is-purple:hover {
+    background-color: #8a2be2;
+    color: #ffffff;
+    transform: translateY(-3px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.has-shadow {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+#error_handler_image {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+
+#error_handler_image:hover {
+    transform: scale(1.05);
+}
+
+.random-color-text {
+  font-size: 24px;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
