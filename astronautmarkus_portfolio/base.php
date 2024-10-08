@@ -115,7 +115,7 @@
                 <i class="fas fa-copyright"></i>
                 <?php echo date("Y"); ?>
                 <a class="has-text-info" href="/"><strong>ReyesAndFriends</strong></a>
-                made by Marcos Reyes. All rights reserved.
+                made by <strong class="has-text-primary">Marcos Reyes</strong>. All rights reserved.
             </p>
 
             <p>Powered by:</p>

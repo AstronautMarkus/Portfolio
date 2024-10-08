@@ -19,7 +19,7 @@ ob_start();
 
                 <div class="column is-two-thirds animate__animated animate__fadeInLeft">
                     <p class="has-text-white" id="intro-text">
-                        Greetings, visitor! My name is <strong>Marcos Reyes</strong>, also known as <em>"astronautmarkus"</em>. I am a passionate programmer, constantly exploring new technologies and creative projects. <br><br>
+                        Greetings, visitor! My name is <strong class="has-text-primary">Marcos Reyes</strong>, also known as <strong class="has-text-warning">AstronautMarkus</strong>. I am a passionate programmer, constantly exploring new technologies and creative projects. <br><br>
                         If you’re curious about what I do, feel free to check out my work or learn more about me below:
                     </p>
 

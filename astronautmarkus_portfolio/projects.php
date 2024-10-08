@@ -10,7 +10,7 @@ ob_start();
         <div class="box has-shadow animate__animated animate__fadeIn">
             <div class="box">
                 <h1 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown">
-                    Featured Project: AbbyBot <i class="fas fa-robot"></i>
+                <i class="fas fa-robot"></i> Featured Project: AbbyBot
                 </h1>
             </div>
 
@@ -42,7 +42,7 @@ ob_start();
 
         <div class="box has-shadow animate__animated animate__fadeInUp">
             <div class="box">
-                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown">Other Projects</h2>
+                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown"><i class="fas fa-project-diagram"></i> Other Projects</h2>
             </div>
 
             <div class="columns is-multiline">
@@ -56,8 +56,8 @@ ob_start();
 
                         <h3 class="title has-text-white">Mofu Store</h3>
                         <p class="has-text-white">Store created in Django, themed with <strong>"fumofumo"</strong> stuffed animals from the Touhou Project saga.</p>
-                        <a href="https://github.com/anzar2/MOFUStore" target="_blank" class="button is-purple">
-                            <i class="fas fa-code-branch"></i> View on GitHub
+                        <a href="https://github.com/anzar2/MOFUStore" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+                            <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
@@ -74,8 +74,8 @@ ob_start();
                         <p class="has-text-white">
                             Web system focused on sales of household items. It has different modules, user accounts, product list, and an administration module.
                         </p>
-                        <a href="https://github.com/MarcosKingsDuoc/CONSTRU_MIC" target="_blank" class="button is-purple">
-                            <i class="fas fa-code-branch"></i> View on GitHub
+                        <a href="https://github.com/MarcosKingsDuoc/CONSTRU_MIC" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+                            <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                     
@@ -92,8 +92,8 @@ ob_start();
 
                         <h3 class="title has-text-white">CamellosFood-Repartidor</h3>
                         <p class="has-text-white">Camellos Food was a system for mobile applications dedicated to the sale of food, my job was to design the system for delivery people. You can see the repository here.</p>
-                        <a href="https://github.com/AstronautMarkus/CamellosFood-Repartidor-3.0" target="_blank" class="button is-purple">
-                            <i class="fas fa-code-branch"></i> View on GitHub
+                        <a href="https://github.com/AstronautMarkus/CamellosFood-Repartidor-3.0" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+                            <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ ob_start();
 
         <div class="box has-shadow animate__animated animate__fadeInUp">
             <div class="box">
-                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown">Check Out More Projects on My GitHub</h2>
+                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown"><i class="fab fa-github"></i> Check Out More Projects on My GitHub</h2>
             </div>
 
             <div class="columns is-vcentered">
@@ -122,7 +122,7 @@ ob_start();
                     <br>
             
 
-                    <a href="https://github.com/astronautmarkus" target="_blank" class="button is-purple">
+                    <a href="https://github.com/astronautmarkus" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
                         <i class="fab fa-github"></i> Visit My GitHub Profile
                     </a>
                 </div>
