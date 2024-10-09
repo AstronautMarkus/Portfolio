@@ -46,8 +46,6 @@
 
 #error_handler_image {
     border-radius: 10px;
-    width: 200px;
-    height: auto;
     display: inline-block;
     transition: transform 0.3s ease;
 }

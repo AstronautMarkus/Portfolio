@@ -2,9 +2,23 @@
 $error_code = isset($_GET['code']) ? $_GET['code'] : 500; 
 $error_message = isset($_GET['message']) ? $_GET['message'] : 'An unexpected error occurred!'; 
 
+// Assign image based on error code
+switch ($error_code) {
+    case 404:
+        $error_image = "/assets/img/error_handler/404.gif";
+        break;
+    case 500:
+        $error_image = "/assets/img/error_handler/500.gif";
+        break;
+    case 403:
+        $error_image = "/assets/img/error_handler/403.gif";
+        break;
+    default:
+        $error_image = "/assets/img/error_handler/default.gif";
+}
+
 ob_start();
 ?>
-
 <section class="section">
     <div class="container">
         <div class="box has-shadow animate__animated animate__fadeIn">
@@ -16,9 +30,7 @@ ob_start();
 
             <div class="columns is-vcentered is-centered">
                 <div class="column is-narrow has-text-centered animate__animated animate__fadeInRight">
-                    <figure class="image">
-                        <img src="/assets/img/sad_astronaut.jpg" alt="Error Image" id="error_handler_image">
-                    </figure>
+                    <img class="is-square" src="<?php echo htmlspecialchars($error_image); ?>" alt="Error Image" id="error_handler_image">
                 </div>
             </div>
 
