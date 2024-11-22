@@ -217,20 +217,14 @@ ob_start();
                     </div>
                 </div>
                                 
-                <div class="columns is-centered">
-                    <div class="column is-half">
-                        <figure><embed src="https://wakatime.com/share/@AstronautMarkus/dc38ff4d-5e8a-4359-9ca2-4f02cc49147a.svg"></embed></figure>
-                    </div>
-                </div>
             </div>
-
             
             <div class="box has-shadow">
                 <h2 class="title has-text-white"><i class="fas fa-handshake"></i> Let's Connect</h2>
                 <div class="columns">
                     <div class="column has-text-centered">
                         <p class="has-text-white">
-                            Want to get in touch? Feel free to reach out to me through my <a href="contact.php" target=blank class="has-text-info"><i class="fas fa-id-card"></i> Contact Page</a> or connect with me on <a href="https://www.linkedin.com/in/markusreyes" class="has-text-info" target=blank><i class="fab fa-linkedin"></i> LinkedIn</a>.
+                            Want to get in touch? Feel free to reach out to me through my <a href="contact.php" target=blank class="has-text-info"><i class="fas fa-id-card"></i> Contact Page</a> or connect with me on <a href="https://www.linkedin.com/in/markusreyes" class="has-text-info" target=blank><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="20" height="20" > LinkedIn</a>.
                         </p>
                     </div>
                 </div>
