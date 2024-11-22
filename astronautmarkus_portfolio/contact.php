@@ -6,10 +6,10 @@ ob_start();
 <section class="section">
     <div class="container">
 
-        <div class="box has-shadow animate__animated animate__fadeIn">
+        <div class="box has-shadow">
 
             <div class="box">
-                <h1 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown" id="contact-title">
+                <h1 class="title has-text-centered has-text-white is-2" id="contact-title">
                     <i class="fas fa-address-book"></i> Contact Me
                 </h1>
             </div>
@@ -17,7 +17,7 @@ ob_start();
 
             <div class="columns is-vcentered">
 
-                <div class="column is-full animate__animated animate__fadeInLeft">
+                <div class="column is-full">
                     <p class="has-text-white" id="contact-intro">
                         If you'd like to get in touch with me, here are the best ways to reach me! You can find my contact information below. Feel free to connect via email, phone, or through any of my social media platforms.
                     </p>
@@ -25,7 +25,7 @@ ob_start();
             </div>
 
 
-            <div class="box has-shadow animate__animated animate__fadeInUp">
+            <div class="box has-shadow">
                 <div class="columns is-multiline">
 
                     <div class="column is-one-third has-text-centered">
@@ -77,7 +77,7 @@ ob_start();
             </div>
 
 
-            <div class="box has-shadow animate__animated animate__fadeInUp">
+            <div class="box has-shadow">
                 <div class="columns">
                     <div class="column has-text-centered">
                         <p class="has-text-white">
@@ -89,14 +89,14 @@ ob_start();
 
             <div class="columns">
                 <div class="column has-text-centered">
-                    <div class="buttons is-centered animate__animated animate__fadeInUp">
+                    <div class="buttons is-centered">
 
 
-                        <a href="/about.php" class="button is-purple animate__animated animate__pulse animate__infinite">
+                        <a href="/about.php" class="button is-purple">
                             <i class="fas fa-user-tie"></i> Go About Me
                         </a>
 
-                        <a href="/index.php" class="button is-purple animate__animated animate__pulse animate__infinite">
+                        <a href="/index.php" class="button is-purple">
                             <i class="fas fa-home"></i> Go back home
                         </a>
 

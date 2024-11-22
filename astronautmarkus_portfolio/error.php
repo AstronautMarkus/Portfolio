@@ -21,21 +21,21 @@ ob_start();
 ?>
 <section class="section">
     <div class="container">
-        <div class="box has-shadow animate__animated animate__fadeIn">
+        <div class="box has-shadow">
             <div class="box">
-                <h1 class="title has-text-centered has-text-white is-21 animate__animated animate__fadeInDown" id="contact-title">
+                <h1 class="title has-text-centered has-text-white is-21" id="contact-title">
                     <i class="fas fa-exclamation-triangle"></i> Error <?php echo $error_code; ?>
                 </h1>
             </div>
 
             <div class="columns is-vcentered is-centered">
-                <div class="column is-narrow has-text-centered animate__animated animate__fadeInRight">
+                <div class="column is-narrow has-text-centered">
                     <img class="is-square" src="<?php echo htmlspecialchars($error_image); ?>" alt="Error Image" id="error_handler_image">
                 </div>
             </div>
 
             <div class="columns is-vcentered">
-                <div class="column is-full animate__animated animate__fadeInLeft">
+                <div class="column is-full">
                     <p class="subtitle has-text-white has-text-centered" id="contact-intro">
                         <?php echo htmlspecialchars($error_message); ?>
                     </p>
@@ -44,8 +44,8 @@ ob_start();
 
             <div class="columns">
                 <div class="column has-text-centered">
-                    <div class="buttons is-centered animate__animated animate__fadeInUp">
-                        <a href="/index.php" class="button is-purple animate__animated animate__pulse animate__infinite">
+                    <div class="buttons is-centered">
+                        <a href="/index.php" class="button is-purple">
                             <i class="fas fa-home"></i> Go back home
                         </a>
                     </div>

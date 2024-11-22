@@ -14,59 +14,12 @@
 
     <link rel="stylesheet" href="assets/css/bulma/css/bulma.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/astronaut.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="/assets/css/home_styles.css">
-
+    <link rel="stylesheet" href="/assets/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <style>
-        html {
-            min-height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        body {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("assets/img/space_background.jpg");
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            filter: blur(5px);
-            z-index: -1;
-        }
-
-        .navbar,
-        .footer {
-            background-color: #1a1a1a;
-        }
-
-        .navbar-item,
-        .footer p {
-            color: #ffffff;
-        }
-
-        .navbar-burger span {
-            background-color: #ffffff !important;
-        }
-
-        .footer {
-            margin-top: auto;
-        }
-    </style>
 </head>
 
 <body>

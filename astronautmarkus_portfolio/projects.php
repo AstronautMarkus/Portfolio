@@ -3,19 +3,21 @@ $title = "My projects - ReyesAndFriends.cl";
 ob_start();
 ?>
 
-
 <section class="section">
     <div class="container">
         
-        <div class="box has-shadow animate__animated animate__fadeIn">
+        <div class="box has-shadow">
             <div class="box">
-                <h1 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown">
+                <h1 class="title has-text-centered has-text-white is-2">
                 <i class="fas fa-robot"></i> Featured Project: AbbyBot
                 </h1>
             </div>
+            <div class="box">
+                <h2 class="subtitle has-text-centered has-text-white is-4"><i class="fas fa-info-circle"></i> About AbbyBot</h2>
+            </div>
 
             <div class="columns is-vcentered">
-                <div class="column is-two-thirds animate__animated animate__fadeInLeft">
+                <div class="column is-two-thirds">
                 <p class="has-text-white">
                         <strong>AbbyBot</strong> is a system composed of a multipurpose tool for <strong>Discord</strong>, which seeks to manage servers and entertainment functions, a control system for <strong>Dashboard</strong> administrators, and an <strong>API</strong> for its operation. This project combines a unique story about a girl named Abigail 'Abby' Monroe, who lost her family during a machine uprising. <strong>AbbyBot</strong> can interact with users, configure its servers and entertain, enjoy <strong>AbbyBot</strong> and all its autonomous operations.
                         <br><br>
@@ -29,16 +31,16 @@ ob_start();
 
                 </div>
 
-                <div class="column is-one-third animate__animated animate__fadeInRight">
+                <div class="column is-one-third">
                     <figure class="image is-fullwidth">
                         <img src="assets/img/abbybot.png" alt="AbbyBot logo" id="abbybot-image">
                     </figure>
-                    <p class="has-text-centered has-text-white animate__animated animate__fadeInRight">- Abigail "Abby" Monroe, AbbyBot's character icon.</p>
+                    <p class="has-text-centered has-text-white">- Abigail "Abby" Monroe, AbbyBot's character icon.</p>
                 </div>
             </div>
 
             
-            <div class="box has-shadow animate__animated animate__fadeIn">
+            <div class="box has-shadow">
                 <h2 class="title has-text-centered has-text-white is-3"><i class="fas fa-cogs"></i> AbbyBot Features</h2>
                 
                 <div class="columns is-multiline">
@@ -89,20 +91,104 @@ ob_start();
                 </div>
 
                 <p class="has-text-white has-text-centered">
-                    You can discover more AbbyBot features by visiting <a class="has-text-info" href="https://www.abbybotproject.com/overview">www.abbybotproject.com/overview</a>
+                    You can discover more AbbyBot features by visiting <a class="has-text-info" href="https://www.abbybotproject.com" target=blank>www.abbybotproject.com</a>
                 </p>
             </div>
         </div>
 
 
-        <div class="box has-shadow animate__animated animate__fadeInUp">
+        <div class="box has-shadow">
+
             <div class="box">
-                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown"><i class="fas fa-project-diagram"></i> Other Projects</h2>
+                <h2 class="subtitle has-text-centered has-text-white is-4"><i class="fas fa-graduation-cap"></i> Projects developed during my studies</h2>
             </div>
 
             <div class="columns is-multiline">
+
+                <div class="column is-one-third">
+                    <div class="box has-shadow">
+
+                        <figure class="image is-16by9">
+                            <img src="assets/img/projects/MofuLunches-API.png" alt="MofuLunches-API thumbnail">
+                        </figure>
+
+                        <h3 class="title has-text-white">MofuLunches-API</h3>
+                        
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2024, <strong>Semester:</strong> 2</p>
+
+                        <p class="has-text-white">Modular backend based on Service Oriented Architecture (SOA) principles, designed and developed with Flask to guarantee scalability, decoupling and high interoperability between services.</p>
+                        
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+                            <i class="devicon-flask-original" style="font-size: 24px;"></i>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="24" height="24" />
+                            
+                        </div>
+                        
+                        <a href="https://github.com/AstronautMarkus/MofuLunches-API" target="_blank" class="button is-purple mt-3">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
                 
-                <div class="column is-one-third animate__animated animate__fadeInLeft">
+                <div class="column is-one-third">
+                    <div class="box has-shadow">
+
+                        <figure class="image is-16by9">
+                            <img src="assets/img/projects/MofuLunches-Web.png" alt="MofuLunches-Web thumbnail">
+                        </figure>
+
+                        <h3 class="title has-text-white">MofuLunches-Web</h3>
+                        
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2024, <strong>Semester:</strong> 2</p>
+
+                        <p class="has-text-white">Dynamic front-end application built with Flask, offering an intuitive and responsive dashboard tailored for administrators and cooks on the MofuLunches platform. It streamlines operational workflows with a user-friendly interface and seamless backend integration."</p>
+                        
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+
+                            <i class="devicon-flask-original" style="font-size: 24px;"></i>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="24" height="24" />
+
+                        </div>
+                        
+                        <a href="https://github.com/AstronautMarkus/MofuLunches-Web" target="_blank" class="button is-purple mt-3">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="box has-shadow">
+
+                        <figure class="image is-16by9">
+                            <img src="assets/img/projects/MofuLunches-Totem.png" alt="MofuLunches-Totem thumbnail">
+                        </figure>
+
+                        <h3 class="title has-text-white">MofuLunches-Totem</h3>
+                        
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2024, <strong>Semester:</strong> 2</p>
+
+                        <p class="has-text-white">Digital Totem' system designed for seamless integration within an ordering ecosystem, connecting with two complementary systems. Built with a modern tech stack combining Vite, Electron, and React, it delivers a robust, interactive interface optimized for performance and adaptability."</p>
+                        
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="24" height="24" />
+                        </div>                        
+                        
+                        <a href="https://github.com/AstronautMarkus/MofuLunches-Totem" target="_blank" class="button is-purple mt-3">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="column is-one-third">
                     <div class="box has-shadow">
 
                         <figure class="image is-16by9">
@@ -110,15 +196,28 @@ ob_start();
                         </figure>
 
                         <h3 class="title has-text-white">Mofu Store</h3>
+
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2023, <strong>Semester:</strong> 1</p>
+
                         <p class="has-text-white">Store created in Django, themed with <strong>"fumofumo"</strong> stuffed animals from the Touhou Project saga.</p>
-                        <a href="https://github.com/anzar2/MOFUStore" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+
+                            <i class="devicon-django-plain" style="font-size: 24px;"></i>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="24" height="24" />
+
+                        </div>
+                
+                        <a href="https://github.com/anzar2/MOFUStore" target="_blank" class="button is-purple mt-3">
                             <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
 
 
-                <div class="column is-one-third animate__animated animate__fadeInUp">
+                <div class="column is-one-third">
                     <div class="box has-shadow">
 
                         <figure class="image is-16by9">
@@ -126,19 +225,30 @@ ob_start();
                         </figure>
                         
                         <h3 class="title has-text-white">CONSTRU_MIC</h3>
+
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2024, <strong>Semester:</strong> 1</p>
+
                         <p class="has-text-white">
                             Web system focused on sales of household items. It has different modules, user accounts, product list, and an administration module.
                         </p>
-                        <a href="https://github.com/MarcosKingsDuoc/CONSTRU_MIC" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+
+                            <i class="devicon-django-plain" style="font-size: 24px;"></i>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="24" height="24" />
+
+                        </div>
+
+                        <a href="https://github.com/MarcosKingsDuoc/CONSTRU_MIC" target="_blank" class="button is-purple mt-3">
                             <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                     
                 </div>
                 
-
-                
-                <div class="column is-one-third animate__animated animate__fadeInRight">
+                <div class="column is-one-third">
                     <div class="box has-shadow">
 
                         <figure class="image is-16by9">
@@ -146,19 +256,34 @@ ob_start();
                         </figure>
 
                         <h3 class="title has-text-white">CamellosFood-Repartidor</h3>
+                        
+                        <p class="has-text-white p-2"><strong>Year:</strong> 2023, <strong>Semester:</strong> 2</p>
+
                         <p class="has-text-white">Camellos Food was a system for mobile applications dedicated to the sale of food, my job was to design the system for delivery people. You can see the repository here.</p>
-                        <a href="https://github.com/AstronautMarkus/CamellosFood-Repartidor-3.0" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+                        
+                        <div class="technologies mt-2">
+                            <p class="has-text-weight-bold has-text-light">Technologies:</p>
+
+
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" width="24" height="24" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="24" height="24" />
+                            
+
+                        </div>
+
+                        <a href="https://github.com/AstronautMarkus/CamellosFood-Repartidor-3.0" target="_blank" class="button is-purple mt-3">
                             <i class="fab fa-github"></i> View on GitHub
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
 
 
-        <div class="box has-shadow animate__animated animate__fadeInUp">
+        <div class="box has-shadow">
             <div class="box">
-                <h2 class="title has-text-centered has-text-white is-2 animate__animated animate__fadeInDown"><i class="fab fa-github"></i> Check Out More Projects on My GitHub</h2>
+                <h2 class="title has-text-centered has-text-white is-2"><i class="fab fa-github"></i> Check Out More Projects on My GitHub</h2>
             </div>
 
             <div class="columns is-vcentered">
@@ -177,7 +302,7 @@ ob_start();
                     <br>
             
 
-                    <a href="https://github.com/astronautmarkus" target="_blank" class="button is-purple animate__animated animate__pulse animate__infinite">
+                    <a href="https://github.com/astronautmarkus" target="_blank" class="button is-purple">
                         <i class="fab fa-github"></i> Visit My GitHub Profile
                     </a>
                 </div>
@@ -185,9 +310,9 @@ ob_start();
 
             <div class="columns">
                 <div class="column has-text-centered">
-                    <div class="buttons is-centered animate__animated animate__fadeInUp">
+                    <div class="buttons is-centered">
 
-                        <a href="/index.php" class="button is-purple animate__animated animate__pulse animate__infinite">
+                        <a href="/index.php" class="button is-purple">
                             <i class="fas fa-home"></i> Go back home
                         </a>
 
@@ -198,7 +323,6 @@ ob_start();
         </div>
     </div>
 </section>
-
 
 <?php
 $content = ob_get_clean();
